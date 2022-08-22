@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220822232857" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20220822232857">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>Турнир</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="container">
+		<div class="header__top">
+			<a href="index.html" class="header__logo-wrapper">
+				<div class="header__logo">
+					<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt=""></picture>
+				</div>
+				<div class="header__name-adaptive">PTD</div>
+			</a>
+			<div class="header__name">Platinum Dragons</div>
+			<div class="header__buttons">
+				<a href="profile.html" class="header__avatar">
+					<picture><source srcset="img/header/avatar.webp" type="image/webp"><img src="img/header/avatar.png" alt=""></picture>
+				</a>
+				<a href="#mainPopup" class="header__btn header__btn_in popup-link">Вход</a>
+				<a href="#mainPopup" class="header__btn header__btn_up popup-link">Вступить</a>
+			</div>
+			<button type="button" class="header__icon icon-header">
+				<span></span>
+			</button>
+		</div>
+		<div class="header__bottom">
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li><a href="index.html" class="menu__link">О клане</a></li>
+					<li><a href="members.html" class="menu__link">Состав</a></li>
+					<li><a href="news.html" class="menu__link">Новости</a></li>
+					<li><a href="tournaments.html" class="menu__link">Турниры</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+		<main class="main">
+			<div class="container">
+				<div class="main__body">
+					<section class="tournament">
+						<article class="tournament__info info-tournament _anim">
+							<div class="info-tournament__image">
+								<picture><source srcset="img/tournaments/02.webp" type="image/webp"><img class="info-tournament__img disabled" src="img/tournaments/02.webp" alt=""></picture>
+								<div class="info-tournament__description active">
+									<button type="button" class="info-tournament__button active">
+										<i></i>
+									</button>
+									<div class="info-tournament__content">
+										<h2 class="info-tournament__title">Турнир королевская битва</h2>
+										<div class="info-tournament__items">
+											<div class="info-tournament__item"><span>Тип:</span>Командный турнир 1vs1</div>
+											<div class="info-tournament__item"><span>Режим:</span>Королевская битва</div>
+											<div class="info-tournament__item"><span>Дата:</span>20 июня - 27 июня</div>
+											<div class="info-tournament__item">
+												<span>Статус:</span>
+												<div class="info-tournament__status">Прием заявок</div>
+											</div>
+											<div class="info-tournament__item info-tournament__item_vertical">
+												<span>Описание</span>
+												Турнир посвященный 8 марта. Пройдет в несколько этапов. Самые
+												сильные и смекалистые разделят 20.000 рублей. Турнир посвященный 8 марта. Пройдет в
+												несколько этапов. Самые сильные и смекалистые разделят 20.000 рублей.
+											</div>
+											<div class="info-tournament__item info-tournament__item_vertical">
+												<span>Правила</span>
+												<ol class="info-tournament__list">
+													<li>Не использовать ананасы</li>
+													<li>Нельзя кемпить и сидеть в кустах</li>
+													<li>Не использовать импакт снаряжение (гранаты и помпы)</li>
+												</ol>
+											</div>
+										</div>
+										<form action="#" class="info-tournament__form">
+											<div class="info-tournament__note">
+												В вашей команде больше 2 игроков выберите тех кто будет учавствовать в турнире
+											</div>
+											<ul class="info-tournament__checkboxes">
+												<li class="info-tournament__checkbox-item">
+													<input type="checkbox" class="info-tournament__checkbox-input" name="players"
+														id="player1" value="player1">
+													<label class="info-tournament__checkbox-label" for="player1">
+														<div class="info-tournament__nickname">cr1mer</div>
+														<div class="info-tournament__wins">65<i class="_icon-win"></i></div>
+													</label>
+												</li>
+												<li class="info-tournament__checkbox-item">
+													<input checked type="checkbox" class="info-tournament__checkbox-input"
+														name="players" id="player2" value="player2">
+													<label class="info-tournament__checkbox-label" for="player2">
+														<div class="info-tournament__nickname">yung</div>
+														<div class="info-tournament__wins">54<i class="_icon-win"></i></div>
+													</label>
+												</li>
+												<li class="info-tournament__checkbox-item">
+													<input type="checkbox" class="info-tournament__checkbox-input" name="players"
+														id="player3" value="player3">
+													<label class="info-tournament__checkbox-label" for="player3">
+														<div class="info-tournament__nickname">d1ztroy</div>
+														<div class="info-tournament__wins">120<i class="_icon-win"></i></div>
+													</label>
+												</li>
+												<li class="info-tournament__checkbox-item">
+													<input checked type="checkbox" class="info-tournament__checkbox-input"
+														name="players" id="player4" value="player4">
+													<label class="info-tournament__checkbox-label" for="player4">
+														<div class="info-tournament__nickname">arthas</div>
+														<div class="info-tournament__wins">22<i class="_icon-win"></i></div>
+													</label>
+												</li>
+												<li class="info-tournament__checkbox-item">
+													<input type="checkbox" class="info-tournament__checkbox-input" name="players"
+														id="player5" value="player5">
+													<label class="info-tournament__checkbox-label" for="player5">
+														<div class="info-tournament__nickname">tohen</div>
+														<div class="info-tournament__wins">5<i class="_icon-win"></i></div>
+													</label>
+												</li>
+											</ul>
+											<button type="submit" class="info-tournament__form-button ">Участвовать</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</article>
+						<div class="tournament__participants participants-tournament">
+							<h3 class="participants-tournament__title title">Участники</h3>
+							<ul class="participants-tournament__items">
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/03.webp" type="image/webp"><img src="img/members/03.jpg" alt=""></picture></a>			
+									<div	class="participants-tournament__data">crispySmasher</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Илья</div>
+									<div class="participants-tournament__data">PTD</div>
+									<div class="participants-tournament__data participants-tournament__data_win">65 <i class="_icon-win"></i></div>
+								</li>
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/04.webp" type="image/webp"><img src="img/members/04.jpg" alt=""></picture></a>
+									<div	class="participants-tournament__data">cr1mer</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Артем</div>
+									<div class="participants-tournament__data">PTD</div>
+									<div class="participants-tournament__data participants-tournament__data_win">23 <i class="_icon-win"></i></div>
+								</li>
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture></a>									
+									<div	class="participants-tournament__data">yung</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Константин</div>
+									<div class="participants-tournament__data">PTD</div>
+									<div class="participants-tournament__data participants-tournament__data_win">233<i class="_icon-win"></i></div>
+								</li>
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/06.webp" type="image/webp"><img src="img/members/06.jpg" alt=""></picture></a>								
+									<div	class="participants-tournament__data">d1ztroy</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Дима</div>
+									<div class="participants-tournament__data">PTD</div>
+									<div class="participants-tournament__data participants-tournament__data_win">124<i class="_icon-win"></i></div>
+								</li>
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/07.webp" type="image/webp"><img src="img/members/07.jpg" alt=""></picture></a>									
+									<div	class="participants-tournament__data">grind</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Антон</div>
+									<div class="participants-tournament__data">PTD</div>
+									<div class="participants-tournament__data participants-tournament__data_win">1<i class="_icon-win"></i></div>
+								</li>
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/01.webp" type="image/webp"><img src="img/members/01.jpg" alt=""></picture></a>									
+									<div	class="participants-tournament__data">tohen</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Влад</div>
+									<div class="participants-tournament__data">-</div>
+									<div class="participants-tournament__data participants-tournament__data_win">43<i class="_icon-win"></i></div>
+								</li>
+								<li class="participants-tournament__item">
+									<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/02.webp" type="image/webp"><img src="img/members/02.jpg" alt=""></picture></a>		
+									<div	class="participants-tournament__data">arthas</div>
+									<div	class="participants-tournament__data participants-tournament__data_name">Андрей</div>
+									<div class="participants-tournament__data">PTD</div>
+									<div class="participants-tournament__data participants-tournament__data_win">1027<i class="_icon-win"></i></div>
+								</li>
+							</ul>
+						</div>
+						<div class="tournament__teams teams-tournament">
+							<h3 class="teams-tournament__title title">Команды</h3>
+							<ul data-spollers data-one-spoller class="teams-tournament__items">
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">TeamSpirit</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>crispySmasher</div>
+										<div class="teams-tournament__data teams-tournament__data_online">3/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">250 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/03.webp" type="image/webp"><img src="img/members/03.jpg" alt=""></picture></a>			
+												<div	class="participants-tournament__data">crispySmasher</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Илья</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">65 <i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/04.webp" type="image/webp"><img src="img/members/04.jpg" alt=""></picture></a>
+												<div	class="participants-tournament__data">cr1mer</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Артем</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">23 <i class="_icon-win"></i></div>									
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">yung</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Константин</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">233<i class="_icon-win"></i></div>
+											</li> 
+										</ul>
+									</div>
+								</li>
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">Fnatic</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>cr1mer</div>
+										<div class="teams-tournament__data teams-tournament__data_online">4/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">1480 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/06.webp" type="image/webp"><img src="img/members/06.jpg" alt=""></picture></a>								
+												<div	class="participants-tournament__data">d1ztroy</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Дима</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">124<i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/07.webp" type="image/webp"><img src="img/members/07.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">grind</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Антон</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">1<i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/01.webp" type="image/webp"><img src="img/members/01.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">tohen</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Влад</div>
+												<div class="participants-tournament__data">-</div>
+												<div class="participants-tournament__data participants-tournament__data_win">43<i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/02.webp" type="image/webp"><img src="img/members/02.jpg" alt=""></picture></a>		
+												<div	class="participants-tournament__data">arthas</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Андрей</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">1027<i class="_icon-win"></i></div>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">TeamLiquid</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>grind</div>
+										<div class="teams-tournament__data teams-tournament__data_online">2/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">430 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">yung</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Константин</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">233<i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/06.webp" type="image/webp"><img src="img/members/06.jpg" alt=""></picture></a>								
+												<div	class="participants-tournament__data">d1ztroy</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Дима</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">124<i class="_icon-win"></i></div>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">NIP</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>d1ztroy</div>
+										<div class="teams-tournament__data teams-tournament__data_online">5/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">10421 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/03.webp" type="image/webp"><img src="img/members/03.jpg" alt=""></picture></a>			
+												<div	class="participants-tournament__data">crispySmasher</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Илья</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">65 <i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/04.webp" type="image/webp"><img src="img/members/04.jpg" alt=""></picture></a>
+												<div	class="participants-tournament__data">cr1mer</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Артем</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">23 <i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">yung</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Константин</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">233<i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/06.webp" type="image/webp"><img src="img/members/06.jpg" alt=""></picture></a>								
+												<div	class="participants-tournament__data">d1ztroy</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Дима</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">124<i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/07.webp" type="image/webp"><img src="img/members/07.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">grind</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Антон</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">1<i class="_icon-win"></i></div>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">Secret</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>yung</div>
+										<div class="teams-tournament__data teams-tournament__data_online">1/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">76 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">yung</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Константин</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">233<i class="_icon-win"></i></div>
+											</li> 
+										</ul>
+									</div>
+								</li>
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">Dignitas</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>arthas</div>
+										<div class="teams-tournament__data teams-tournament__data_online">2/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">430 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/03.webp" type="image/webp"><img src="img/members/03.jpg" alt=""></picture></a>			
+												<div	class="participants-tournament__data">crispySmasher</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Илья</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">65 <i class="_icon-win"></i></div>
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/04.webp" type="image/webp"><img src="img/members/04.jpg" alt=""></picture></a>
+												<div	class="participants-tournament__data">cr1mer</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Артем</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">23 <i class="_icon-win"></i></div>									
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="teams-tournament__item">
+									<div data-spoller class="teams-tournament__header">
+										<div class="teams-tournament__data teams-tournament__data_team">Astralis</div>
+										<div class="teams-tournament__data teams-tournament__data_leader"><span>Leader:</span>yung</div>
+										<div class="teams-tournament__data teams-tournament__data_online">2/5 <i class="_icon-person"></i></div>
+										<div class="teams-tournament__data teams-tournament__data_win">8650 <i class="_icon-win"></i></div>
+									</div>
+									<div class="teams-tournament__content">
+										<ul class="participants-tournament__items">
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/04.webp" type="image/webp"><img src="img/members/04.jpg" alt=""></picture></a>
+												<div	class="participants-tournament__data">cr1mer</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Артем</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">23 <i class="_icon-win"></i></div>									
+											</li>
+											<li class="participants-tournament__item">
+												<a href="#" class="participants-tournament__avatar"><picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture></a>									
+												<div	class="participants-tournament__data">yung</div>
+												<div	class="participants-tournament__data participants-tournament__data_name">Константин</div>
+												<div class="participants-tournament__data">PTD</div>
+												<div class="participants-tournament__data participants-tournament__data_win">233<i class="_icon-win"></i></div>
+											</li> 
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="tournament__container">
+							<h3 class="table-tournament__title title">Турнирная таблица</h3>
+							<div class="tournament__edit edit">
+								<!-- Тут чекбоксовая кнопка -->
+								<div class="edit__group">
+									<input type="checkbox" id="editBtn" name="edit" class="popup__checkbox-input edit__btn">
+									<label for="editBtn" class="edit__label">Редактировать</label>
+								</div>
+								<!-- Тут кнопка сохранить -->
+								<div class="edit__save btn">Сохранить</div>
+				
+								<div class="edit__tips">
+									<p class="edit__tip"><span class="edit__head">Двойное нажатие</span> <span class="edit__content">- используйте для удаления участника (удалить участника в 1-ом столбце возможно только через админ панель).</span></p>
+									<p class="edit__tip"><span class="edit__head">Enter/Tab</span> <span class="edit__content">- переключение между полей для изменения счета у каждого игрока.</span></p>
+									<p class="edit__tip"><span class="edit__head">Нажатие на игрока</span> <span class="edit__content">- игрок выделится оранжевым цветом после этого кликом по выделенной ячейке его можно будет перенести.</span></p>
+									<p class="edit__tip"><span class="edit__head">Сохранить</span><span class="edit__content">- после сохранения новые данные отправяться на сервер. Это может занять какое-то время.</span></p>
+								</div>
+							</div>
+							<div class="tournament__table tour-table">
+								<div class="tour-table__body" id="zoom">
+									<input type="text" class="score-edit" name="edit" value="">
+								</div>
+								<div class="tour-table__info table-info">
+									<div class="table-info__scale table-scale">
+										<i class="table-scale__reset"></i>
+										<div class="table-scale__text">100%</div>
+									</div>
+									<div class="table-info__body">
+										<div class="table-info__content">
+											<p class="table-info__item"><span>Ctrl+Колесико</span> - зум таблицы</p>
+											<p class="table-info__item"><span>LMB+Движение</span> - перемещениие таблицы</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<aside class="aside aside-open">
+	<div class="aside__body">
+		<div class="aside__dots">
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+			<div class="aside__dot"></div>
+		</div>
+		<button type="button" class="aside__arrows">
+			<span class="arrow"></span>
+			<span class="arrow"></span>
+			<span class="arrow"></span>
+		</button>
+		<div class="aside__content">
+			<article class="aside__news">
+				<h3><a href="news.html" class="aside__news-title title-aside">Новости</a></h3>
+				<div class="aside__news-img">
+					<picture><source srcset="img/news/02.webp" type="image/webp"><img src="img/news/02.jpg" alt=""></picture>
+				</div>
+				<a href="currentNews.html" class="aside__news-text">
+					В Call Of Duty mobile добавили новый режим "Zombies"
+				</a>
+			</article>
+			<div class="aside__chat chat-aside">
+				<h3><a href="chat.html" class="chat-aside__title title-aside">Чатик</a></h3>
+				<div class="chat-aside__body">
+					<div class="chat-aside__content">
+						<div class="chat-aside__user send">
+							<div class="chat-aside__user-data">
+								<a href="" class="chat-aside__user-avatar">
+									<picture><source srcset="img/members/03.webp" type="image/webp"><img src="img/members/03.jpg" alt=""></picture>
+								</a>
+								<div class="chat-aside__user-items">
+									<div class="chat-aside__user-item chat-aside__user-item_nickname">Truth?</div>
+									<div class="chat-aside__user-item chat-aside__user-item_post">Соруководитель</div>
+								</div>
+							</div>
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas nostrum unde facere pariatur dicta in eius dolorem, tenetur esse cum est, adipisci molestiae error? Nisi doloribus corporis ducimus suscipit.
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>
+						<div class="chat-aside__user chat-aside__user_me send">
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quos aperiam non voluptatibus, quidem placeat! Quo, dolore provident velit libero quasi, veniam laborum excepturi aspernatur quod aliquam, sit blanditiis rerum.
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>
+						<div class="chat-aside__user send">
+							<div class="chat-aside__user-data send">
+								<a href="" class="chat-aside__user-avatar">
+									<picture><source srcset="img/members/05.webp" type="image/webp"><img src="img/members/05.jpg" alt=""></picture>
+								</a>
+								<div class="chat-aside__user-items">
+									<div class="chat-aside__user-item chat-aside__user-item_nickname">Truth?</div>
+									<div class="chat-aside__user-item chat-aside__user-item_post">Соруководитель</div>
+								</div>
+							</div>
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Текст сообщений сообщений сообщений сообщений сообщений сообщений
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>
+						<div class="chat-aside__user send">
+							<div class="chat-aside__user-data send">
+								<a href="" class="chat-aside__user-avatar">
+									<picture><source srcset="img/members/01.webp" type="image/webp"><img src="img/members/01.jpg" alt=""></picture>
+								</a>
+								<div class="chat-aside__user-items">
+									<div class="chat-aside__user-item chat-aside__user-item_nickname">Truth?</div>
+									<div class="chat-aside__user-item chat-aside__user-item_post">Соруководитель</div>
+								</div>
+							</div>
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Текст сообщений сообщений
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>
+						<div class="chat-aside__user chat-aside__user_me send">
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Текст сообщений сообщений
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>
+						<div class="chat-aside__user send">
+							<div class="chat-aside__user-data send">
+								<a href="" class="chat-aside__user-avatar">
+									<picture><source srcset="img/members/04.webp" type="image/webp"><img src="img/members/04.jpg" alt=""></picture>
+								</a>
+								<div class="chat-aside__user-items">
+									<div class="chat-aside__user-item chat-aside__user-item_nickname">Truth?</div>
+									<div class="chat-aside__user-item chat-aside__user-item_post">Соруководитель</div>
+								</div>
+							</div>
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Сегодня играем турик всем быть вовремя))))
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>
+						<div class="chat-aside__user chat-aside__user_me send">
+							<div class="chat-aside__user-msg">
+								<div class="chat-aside__msg">
+									Сегодня играем турик всем быть вовремя))))
+								</div>
+								<time class="chat-aside__time">14:43</time>
+							</div>
+						</div>						
+					</div>
+					<form action="#" class="chat-aside__form">
+						<input autocomplete="off" name="chat" type="text" class="chat-aside__input" placeholder="Сообщение...">
+						<button type="submit" class="chat-aside__btn _icon-send"></button>
+						<button type="button" class="chat-aside__scroll-button">
+							<span></span>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<a href="chat.html" class="aside__icon-chat _icon-chat"></a>
+	</div>
+</aside>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+	<div class="container">
+		<div class="footer__body">
+			<a href="privacy.html" class="footer__privacy">Политика конфиденциальности</a>
+			<div class="footer__copyright">Copyright 2022</div>
+		</div>
+	</div>
+</footer>
+		<a href="chat.html" class="icon-chat _icon-chat"></a>
+	</div>
+	<div class="popup" id="mainPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<nav class="popup__tabs">
+				<h4 data-tab="1" class="popup__tab active">Авторизация</h4>
+				<span>/</span>
+				<h4 data-tab="2" class="popup__tab">Регистрация</h4>
+			</nav>
+			<form data-tab-content="1" action="#" class="popup__form popup__form_main active">
+				<div class="popup__items">
+					<div class="popup__item">
+						<input autocomplete="off" type="email" name="email" class="popup__input" placeholder="Введите email" required>
+					</div>
+					<div class="popup__item">
+						<input autocomplete="off" type="password" name="password" class="popup__input" placeholder="Введите пароль" required>
+					</div>
+					<div class="popup__remember">
+						<div class="popup__checkbox">
+							<input type="checkbox" id="chexboxRemember" name="remember" class="popup__checkbox-input" value="remember">
+							<label class="popup__checkbox-label" for="chexboxRemember">Запомнить</label>
+						</div>
+						<a href="#recoverPasswordPopup" class="popup__forget popup-link">Забыли пароль?</a>
+					</div>
+					<div class="popup__note">
+						Вы не активировали аккаунт. Для подтверждения необходимо отправить сообщение на почту: 
+						<a href="#notifyTimerPopup" class="popup-link">Отправить</a>
+					</div>
+				</div>
+				<button type="submit" class="popup__btn btn">Войти</button>
+			</form>
+			<form data-tab-content="2" action="#" class="popup__form popup__form_main">
+				<div class="popup__items">
+					<div class="popup__item">
+						<label class="popup__label" for="popupNickname">Ник</label>
+						<input autocomplete="off" type="text" class="popup__input" id="popupNickname" name="nickname" placeholder="Введите никнейм" required>
+					</div>
+					<div class="popup__item">
+						<label class="popup__label" for="popupEmail">Email</label>
+						<input autocomplete="off" type="email" class="popup__input _error" id="popupEmail" name="email" placeholder="Введите email" required>
+					</div>
+					<div class="popup__item">
+						<label class="popup__label" for="popupPassword">Пароль</label>
+						<input autocomplete="off" type="password" class="popup__input" id="popupPassword" name="password" placeholder="Введите пароль" required>
+					</div>
+					<div class="popup__item">
+						<label class="popup__label" for="popupRepeatPassword">Повтор</label>
+						<input autocomplete="off" type="password" class="popup__input" id="popupRepeatPassword" name="repeatPassword" placeholder="Повторите пароль" required>
+					</div>
+					<div class="popup__item">
+						<label class="popup__label" for="popupUID">UID</label>
+						<input autocomplete="off" type="text" class="popup__input" id="popupUID" name="UID"
+							placeholder="скопируйте в игровом профиле" required>
+					</div>
+				</div>
+				<button type="submit" class="popup__btn btn">Зарегистрироваться</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="popup" id="recoverPasswordPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Восстановить пароль</h4>
+			<form action="#" class="popup__form">
+				<div class="popup__items">
+					<div class="popup__item">
+						<input autocomplete="off" type="email" name="email" class="popup__input" placeholder="Введите ваш email" required>
+					</div>
+					<div class="popup__message">
+						<p>Вам на почту будет отправлено письмо для востановления пароля.</p>
+					</div>	
+					<div class="popup__error">На сервере произошла ошибка попробуйте авторизироваться повторно</div>
+				</div>	
+				<div class="popup__buttons">
+					<a href="#mainPopup" class="popup__back popup-link"><i class="_icon-back"></i></a>
+					<button type="submit" class="popup__btn btn">Отправить</button>
+				</div>			
+			</form>
+		</div>
+	</div>
+</div>
+<div class="popup" id="newPasswordPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Поменяйте пароль</h4>
+			<form action="#" class="popup__form">
+				<div class="popup__items">
+					<div class="popup__item">
+						<input autocomplete="off" type="password" name="password" class="popup__input" placeholder="Пароль" required>
+					</div>
+					<div class="popup__item">
+						<input autocomplete="off" type="password" name="repeatPassword" class="popup__input" placeholder="Подтвердите пароль" required>
+					</div>
+				</div>
+				<button type="submit" class="popup__btn btn">Сменить пароль</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="popup" id="notifyPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Уведомление</h4>
+			<div class="popup__message">
+				<p>Вам отправили письмо на восстановление пароля на почтовый ящик pochta@mail.ru. Проверьте вашу почту.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="popup" id="notifyTimerPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Уведомление</h4>
+			<form action="#" class="popup__form">
+				<div class="popup__items">
+					<div class="popup__message">
+						<p>На почту test@mail.ru было отправлено письмо для востановления пароля.</p>
+						<p>Повторно отправить письмо: <button class="message-button" type="button"><span>4:59</span></button> мин</p>
+						<p>Осталось попыток: <span>5</span></p>
+					</div>
+				</div>
+				<button type="submit" class="popup__btn btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="popup" id="notifyLimitPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Уведомление</h4>
+			<div class="popup__message">
+				<p>Не получилось добавить игрока(ов) в команду!</p>
+				<p>Привышен лимит игроков. <br> Максимум вы можете добавить <span>1</span> игрока.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="popup" id="confirmExitProfilePopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Уведомление</h4>
+			<form action="#" class="popup__form">
+				<div class="popup__items">
+					<div class="popup__message">
+						<p>Вы уверены что хотите выйти из профиля?</p>
+					</div>		
+				</div>
+				<div class="popup__buttons">
+					<div class="popup__button">
+						<button type="submit" class="popup__btn btn">ДА</button>
+					</div>
+					<div class="popup__button">
+						<button type="button" class="popup__btn btn close-popup">НЕТ</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="popup" id="confirmExitTeamPopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Уведомление</h4>
+			<form action="#" class="popup__form">
+				<div class="popup__items">
+					<div class="popup__message">
+						<p>Вы уверены что хотите покинуть команду?</p>
+					</div>
+				</div>		
+				<div class="popup__buttons">
+					<div class="popup__button">
+						<button type="submit" class="popup__btn btn">ДА</button>
+					</div>
+					<div class="popup__button">
+						<button type="button" class="popup__btn btn close-popup">НЕТ</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="popup" id="confirmRemovePopup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="" class="popup__close close-popup"></a>
+			<h4 class="popup__title">Уведомление</h4>
+			<form action="#" class="popup__form">
+				<div class="popup__items">		
+					<div class="popup__message">
+						<p>Вы уверены что хотите удалить команду?</p>
+					</div>
+				</div>
+				<div class="popup__buttons">
+					<div class="popup__button">
+						<button type="submit" class="popup__btn btn">ДА</button>
+					</div>
+					<div class="popup__button">
+						<button type="button" class="popup__btn btn close-popup">НЕТ</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<script id="data" type="application/json">
+		{
+			"stages": [
+				[{"player1": "CrispySmasher", "score": "1,13", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}, {"player1": "CrispySmasher", "score": "1,2", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}, {"player1": "CrispySmasher", "score": "1,13", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}, {"player1": "CrispySmasher", "score": "1,2", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}],
+				[{"player1": "CrispySmasher", "score": "1,13", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}, {"player1": "CrispySmasher", "score": "1,2", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}],
+				[{"player1": "CrispySmasher", "score": "1,2", "player2": "ArterLegend"},{"player1": "OlegPro", "score": "4,0", "player2": "NiggerMaster"}],
+				[{"player1": "", "score": "0,0", "player2": ""}, {"player1": "", "score": "0,0", "player2": ""}],
+				[{"first": "", "second": "", "third": ""}]
+			],
+			"first": "",
+			"second": "",
+			"third": ""
+		}
+	</script>
+
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220822232857"></script>
+	<script src="js/app.min.js?_v=20220822232857"></script>
+</body>
+
+</html>
